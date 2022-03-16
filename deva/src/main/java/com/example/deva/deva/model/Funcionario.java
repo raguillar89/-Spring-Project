@@ -22,7 +22,7 @@ public class Funcionario {
     private String sobrenomeFunc;
     @CPF
     @Pattern(regexp = "[0-9]{3}\\.?[0-9]{3}\\.?[0-9]{3}\\-?[0-9]{2}")
-    @Column(nullable = false, unique = true, length = 11, name = "cpfFunc")
+    @Column(nullable = false, unique = true, length = 14, name = "cpfFunc")
     private String cpfFunc;
     @Column(nullable = false, unique = true, length = 40, name = "endFunc")
     private String endFunc;

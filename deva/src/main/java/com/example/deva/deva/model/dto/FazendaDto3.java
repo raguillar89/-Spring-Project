@@ -3,12 +3,13 @@ package com.example.deva.deva.model.dto;
 import com.example.deva.deva.model.Fazenda;
 import com.example.deva.deva.model.Grao;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 public class FazendaDto3 {
 
     @NotBlank
     private Grao grao;
-    @NotBlank
+    @NotNull
     private Double estq;
 
     private FazendaDto3(){ }
